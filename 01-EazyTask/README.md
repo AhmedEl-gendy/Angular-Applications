@@ -1,5 +1,5 @@
 # Easy Task
-Live link: https://eazy-task-ahmedel-gendys-projects.vercel.app/
+Live link: https://eazy-task-ahmedel-gendys-projects.vercel.app/ <br/><br/>
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.0.
 
 ## Development server
