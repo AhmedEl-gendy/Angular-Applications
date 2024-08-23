@@ -1,0 +1,21 @@
+<section id="tasks">
+  <header>
+    <h2>{{ user.name }}'s Tasks</h2>
+    <menu>
+      <button (click)="onAddingANewTask()">Add Task</button>
+    </menu>
+  </header>
+  @if (userTasks && userTasks.length>0) {
+  <ul>
+    @for (task of userTasks; track task.id) {
+    <li><app-task [task]="task" /></li>
+    }
+  </ul>
+  }@else {
+  <p>There are no available tasks!</p>
+  }
+</section>
+
+@if(isAddingATask){
+<app-new-task [userId]="user.id" (close)="closeDialog()" />
+}
