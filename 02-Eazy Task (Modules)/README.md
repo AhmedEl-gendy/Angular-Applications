@@ -1,5 +1,5 @@
 # Easy Task
-
+Live link: <a href="https://eazy-task-modules.vercel.app/" target="_blank">https://eazy-task-modules.vercel.app</a>
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.1.
 
 ## Development server
